@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS — Agence de communication événementielle</title>
+  <meta name="description" content="Nexus, agence de communication événementielle. Conception d'expériences immersives. Découvrez SOMNIA, notre escape game nocturne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">NE<span>X</span>US</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#agence">L'agence</a></li>
+        <li><a href="#membres">L'équipe</a></li>
+        <li><a href="#event">Le projet</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero__grid"></div>
+    <div class="container hero__content">
+      <span class="hero__tag reveal">Agence de communication événementielle · Troyes</span>
+      <h1 class="reveal">Nous concevons des <span class="accent">expériences</span> dont on ne ressort pas indemne.</h1>
+      <p class="reveal">Nexus imagine, conçoit et commercialise des expériences immersives clés en main. De la stratégie à la mise en scène, nous transformons une idée en événement vécu.</p>
+      <div class="reveal">
+        <a href="#event" class="btn btn--primary">Découvrir notre projet</a>
+        <a href="#membres" class="btn btn--ghost">Rencontrer l'équipe</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- L'agence -->
+  <section class="section" id="agence">
+    <div class="container">
+      <p class="section__label">Qui sommes-nous</p>
+      <h2 class="section__title">Une agence, cinq expertises</h2>
+      <p class="section__intro">Fondée à Troyes, Nexus réunit la stratégie, le design, le développement et l'audiovisuel sous une même bannière. Notre conviction : une expérience marquante naît de la rencontre entre une direction créative forte et une exécution irréprochable.</p>
+    </div>
+  </section>
+
+  <!-- Membres -->
+  <section class="section" id="membres" style="padding-top:0;">
+    <div class="container">
+      <p class="section__label">L'équipe</p>
+      <h2 class="section__title">Les visages de Nexus</h2>
+      <p class="section__intro">Cliquez sur un membre pour découvrir son rôle et le suivi de sa contribution au projet, semaine après semaine.</p>
+      <div class="members">
+        <a href="pages/alizee.html" class="member-card reveal">
+          <div class="member-card__avatar">AP</div>
+          <div class="member-card__name">Alizée Poupelin</div>
+          <div class="member-card__role">Gestion de projet</div>
+        </a>
+        <a href="pages/yoanne.html" class="member-card reveal">
+          <div class="member-card__avatar">YT</div>
+          <div class="member-card__name">Yoanne Tohibo</div>
+          <div class="member-card__role">Community management</div>
+        </a>
+        <a href="pages/elyne.html" class="member-card reveal">
+          <div class="member-card__avatar">EB</div>
+          <div class="member-card__name">Élyne Bonouvrier</div>
+          <div class="member-card__role">Graphisme &amp; audiovisuel</div>
+        </a>
+        <a href="pages/meric.html" class="member-card reveal">
+          <div class="member-card__avatar">MK</div>
+          <div class="member-card__name">Meric Koken</div>
+          <div class="member-card__role">Développement full-stack</div>
+        </a>
+        <a href="pages/mathias.html" class="member-card reveal">
+          <div class="member-card__avatar">MM</div>
+          <div class="member-card__name">Mathias Maurel</div>
+          <div class="member-card__role">Dév. full-stack · Chef de projet</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Le projet : clin d'œil SOMNIA -->
+  <section class="section event" id="event">
+    <div class="container">
+      <p class="section__label">Notre projet phare</p>
+      <h2 class="event__title">SOMNIA</h2>
+      <p class="event__sub">« Le centre du sommeil vous accueille pour une nuit d'observation. Les patients précédents ne se sont jamais réveillés. » Un escape game nocturne immersif : vous entrez le soir, vous affrontez la nuit, vous découvrez la vérité avant l'aube.</p>
+      <a href="#" class="btn">Voir le site de l'événement</a>
+      <!-- TODO : remplacer le href par l'URL du site événementiel une fois déployé -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section__label">Contact</p>
+      <h2 class="section__title">Parlons de votre événement</h2>
+      <p class="section__intro">Une idée à faire vivre ? Nexus conçoit l'expérience de A à Z. Écrivez-nous : contact@nexus-agence.fr</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__logo">NEXUS</div>
+      <p>Agence de communication événementielle · IUT de Troyes · SAÉ 202 — 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
